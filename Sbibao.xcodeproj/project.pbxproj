@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB4BF2F1D31E90400DCE486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4BF2E1D31E90400DCE486 /* AppDelegate.swift */; };
+		AEB4BF311D31E90400DCE486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4BF301D31E90400DCE486 /* ViewController.swift */; };
+		AEB4BF341D31E90400DCE486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB4BF321D31E90400DCE486 /* Main.storyboard */; };
+		AEB4BF361D31E90400DCE486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB4BF351D31E90400DCE486 /* Assets.xcassets */; };
+		AEB4BF391D31E90400DCE486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB4BF371D31E90400DCE486 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEB4BF2B1D31E90400DCE486 /* Sbibao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sbibao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB4BF2E1D31E90400DCE486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEB4BF301D31E90400DCE486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEB4BF331D31E90400DCE486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB4BF351D31E90400DCE486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB4BF381D31E90400DCE486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB4BF3A1D31E90400DCE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB4BF281D31E90400DCE486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB4BF221D31E90400DCE486 = {
+			isa = PBXGroup;
+			children = (
+				AEB4BF2D1D31E90400DCE486 /* Sbibao */,
+				AEB4BF2C1D31E90400DCE486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB4BF2C1D31E90400DCE486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB4BF2B1D31E90400DCE486 /* Sbibao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB4BF2D1D31E90400DCE486 /* Sbibao */ = {
+			isa = PBXGroup;
+			children = (
+				AEB4BF2E1D31E90400DCE486 /* AppDelegate.swift */,
+				AEB4BF301D31E90400DCE486 /* ViewController.swift */,
+				AEB4BF321D31E90400DCE486 /* Main.storyboard */,
+				AEB4BF351D31E90400DCE486 /* Assets.xcassets */,
+				AEB4BF371D31E90400DCE486 /* LaunchScreen.storyboard */,
+				AEB4BF3A1D31E90400DCE486 /* Info.plist */,
+			);
+			path = Sbibao;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB4BF2A1D31E90400DCE486 /* Sbibao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB4BF3D1D31E90400DCE486 /* Build configuration list for PBXNativeTarget "Sbibao" */;
+			buildPhases = (
+				AEB4BF271D31E90400DCE486 /* Sources */,
+				AEB4BF281D31E90400DCE486 /* Frameworks */,
+				AEB4BF291D31E90400DCE486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sbibao;
+			productName = Sbibao;
+			productReference = AEB4BF2B1D31E90400DCE486 /* Sbibao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB4BF231D31E90400DCE486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zeng;
+				TargetAttributes = {
+					AEB4BF2A1D31E90400DCE486 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AEB4BF261D31E90400DCE486 /* Build configuration list for PBXProject "Sbibao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB4BF221D31E90400DCE486;
+			productRefGroup = AEB4BF2C1D31E90400DCE486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB4BF2A1D31E90400DCE486 /* Sbibao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB4BF291D31E90400DCE486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB4BF391D31E90400DCE486 /* LaunchScreen.storyboard in Resources */,
+				AEB4BF361D31E90400DCE486 /* Assets.xcassets in Resources */,
+				AEB4BF341D31E90400DCE486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB4BF271D31E90400DCE486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB4BF311D31E90400DCE486 /* ViewController.swift in Sources */,
+				AEB4BF2F1D31E90400DCE486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB4BF321D31E90400DCE486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB4BF331D31E90400DCE486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB4BF371D31E90400DCE486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB4BF381D31E90400DCE486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB4BF3B1D31E90400DCE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEB4BF3C1D31E90400DCE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB4BF3E1D31E90400DCE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sbibao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DK.Sbibao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEB4BF3F1D31E90400DCE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sbibao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DK.Sbibao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB4BF261D31E90400DCE486 /* Build configuration list for PBXProject "Sbibao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB4BF3B1D31E90400DCE486 /* Debug */,
+				AEB4BF3C1D31E90400DCE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB4BF3D1D31E90400DCE486 /* Build configuration list for PBXNativeTarget "Sbibao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB4BF3E1D31E90400DCE486 /* Debug */,
+				AEB4BF3F1D31E90400DCE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB4BF231D31E90400DCE486 /* Project object */;
+}
